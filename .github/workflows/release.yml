@@ -24,10 +24,7 @@ jobs:
 
     runs-on: ${{ matrix.platform }}
     steps:
-      # O "sparse-checkout" ignora o avrdude problemático no Windows temporariamente para não quebrar o Git
       - uses: actions/checkout@v4
-        with:
-          id-token: write
 
       - name: setup node
         uses: actions/setup-node@v4
@@ -55,7 +52,7 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_PASSWORD }}
         with:
-          projectPath: '.' # Força a procurar o tauri.conf.json na raiz do projeto local
+          projectPath: '.'
           tagName: app-v__VERSION__
           releaseName: 'v__VERSION__'
           releaseBody: 'Executáveis de teste gerados automaticamente.'
