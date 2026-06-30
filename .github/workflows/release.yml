@@ -3,7 +3,7 @@ name: 'Publish Release'
 on:
   push:
     tags:
-      - 'v*' # Vai rodar toda vez que você criar uma tag tipo v1.0.0
+      - 'v*'
 
 jobs:
   publish-tauri:
@@ -14,9 +14,9 @@ jobs:
       matrix:
         include:
           - platform: 'macos-latest'
-            args: '--target aarch64-apple-darwin' # Mac M1/M2/M3
+            args: '--target aarch64-apple-darwin'
           - platform: 'macos-latest'
-            args: '--target x86_64-apple-darwin' # Mac Intel
+            args: '--target x86_64-apple-darwin'
           - platform: 'ubuntu-22.04'
             args: ''
           - platform: 'windows-latest'
@@ -52,7 +52,7 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_PASSWORD }}
         with:
-          tagName: app-v__VERSION__ # tauri-action substitui automaticamente
+          tagName: app-v__VERSION__
           releaseName: 'v__VERSION__'
           releaseBody: 'Executáveis de teste gerados automaticamente.'
           releaseDraft: true
