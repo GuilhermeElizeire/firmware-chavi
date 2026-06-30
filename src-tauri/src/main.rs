@@ -71,6 +71,8 @@ fn gravar_firmware_bancada(
 
 fn main() {
     tauri::Builder::default()
+        // Adicione esta linha para ativar o updater no executável:
+        .plugin(tauri_plugin_updater::Builder::new().build())
         .invoke_handler(tauri::generate_handler![
             gravar_firmware_bancada
         ])

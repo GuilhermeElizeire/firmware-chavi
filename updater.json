@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "notes": "Versão inicial do software de bancada.",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "",
+      "url": ""
+    },
+    "darwin-x86_64": {
+      "signature": "",
+      "url": ""
+    }
+  }
+}

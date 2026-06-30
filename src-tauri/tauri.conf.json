@@ -3,11 +3,21 @@
   "productName": "firmware-chavi",
   "version": "0.1.0",
   "identifier": "com.tauri.dev",
-  "build": {
+"build": {
     "frontendDist": "../src",
     "beforeDevCommand": "",
     "beforeBuildCommand": "npm run build"
   },
+  "plugins": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://raw.githubusercontent.com/GuilhermeElizeire/firmware-chavi/main/updater.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQ3NUVGOEMyNDY3QUNENTIKUldSU3pYcEd3dmhlMThRTGZIZmhLc2t5QnN1RGxwUzJyNHJkMy9iYlFBSHRaRTYzVlJUZmlJSXoK"
+    }
+  }
+}
   "app": {
     "withGlobalTauri": true,
     "windows": [
