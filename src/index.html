@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firmware Chavi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="tela-produto" class="tela">
+            <h1>Firmware Chavi</h1>
+            <p>Selecione o produto que deseja configurar:</p>
+            <div class="product-grid">
+                <button class="product-button" onclick="selecionarProduto('Fechadura Digital')">
+                    <span>Fechadura Digital</span>
+                    <span class="icon">➔</span>
+                </button>
+                <button class="product-button" onclick="selecionarProduto('Acionador Inteligente')">
+                    <span>Acionador Inteligente</span>
+                    <span class="icon">➔</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="tela-hardware" class="tela" style="display:none">
+            <h1>Versão do Hardware</h1>
+            <p>Selecione a versão do hardware da <span id="produto-label-hw"></span>:</p>
+            <div class="product-grid" id="lista-hardware">
+                </div>
+            <button class="voltar" onclick="voltarPara('tela-produto')">← Voltar</button>
+        </div>
+
+        <div id="tela-mosfet" class="tela" style="display:none">
+            <h1>Mosfet</h1>
+            <p>Esta placa possui mosfet?</p>
+            <div class="product-grid">
+                <button class="product-button" onclick="selecionarMosfet(true)">
+                    <span>Sim, possui mosfet</span>
+                </button>
+                <button class="product-button" onclick="selecionarMosfet(false)">
+                    <span>Não possui</span>
+                </button>
+            </div>
+            <button class="voltar" onclick="voltarPara('tela-hardware')">← Voltar</button>
+        </div>
+
+        <div id="tela-pino-mosfet" class="tela" style="display:none">
+            <h1>Pino do Mosfet</h1>
+            <p>Selecione ou digite o pino do Mosfet correspondente:</p>
+            <div class="product-grid" id="botoes-pino">
+                </div>
+            <div class="input-group">
+                <input type="number" id="input-pino-custom" placeholder="Outro pino (Ex: 8)" min="3" max="14">
+            </div>
+            <button class="product-button" onclick="salvarPinoCustomizado()" style="margin-top: 1rem;">Avançar ➔</button>
+            <button class="voltar" onclick="voltarPara('tela-mosfet')">← Voltar</button>
+        </div>
+
+        <div id="tela-dados-dispositivo" class="tela" style="display:none">
+            <h1>Dados de Configuração</h1>
+            <p>Insira os parâmetros iniciais:</p>
+            
+            <div class="input-form">
+                <div class="input-group">
+                    <label>Canal (-ch):</label>
+                    <input type="number" id="input-canal" placeholder="Ex: 3" min="1">
+                </div>
+                <div class="input-group">
+                    <label>ID do Firmware (-fi):</label>
+                    <input type="number" id="input-firmware-id" placeholder="Ex: 2406">
+                </div>
+            </div>
+
+            <button class="product-button" onclick="validarEDecidirResumo()">Avançar para o Resumo ➔</button>
+            <button class="voltar" id="voltar-de-dados">← Voltar</button>
+        </div>
+
+        <div id="tela-resumo" class="tela" style="display:none">
+            <h1>Painel de Execução</h1>
+            <p>Selecione a ação desejada para o dispositivo <strong id="resumo-serial-title"></strong>:</p>
+            
+            <div class="comando-preview">
+                <strong>Comando que será executado:</strong>
+                <code id="comando-string"></code>
+            </div>
+
+            <pre id="resumo-conteudo"></pre>
+
+            <div id="status-execucao" style="display: none; background: #020617; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; border-left: 4px solid #fbbf24; text-align: left;">
+                <span id="texto-status" style="color: #fbbf24; font-weight: 500;">Iniciando processo...</span>
+            </div>
+
+            <div class="product-grid" id="grid-acoes">
+                <button class="product-button" onclick="processarAcao('apenas_firmware')" style="background: #f59e0b;">
+                    <span>📦 Apenas Firmware</span>
+                </button>
+                <button class="product-button" onclick="processarAcao('completo_com_cadastro')" style="background: #10b981;">
+                    <span>⚡ Completo com Cadastro</span>
+                </button>
+                <button class="product-button" onclick="processarAcao('completo_sem_cadastro')" style="background: #059669;">
+                    <span>⚙️ Completo sem Cadastro</span>
+                </button>
+                <button class="product-button" onclick="processarAcao('apenas_at')" style="background: #3b82f6;">
+                    <span>📟 Apenas Comandos AT</span>
+                </button>
+                <button class="product-button" onclick="processarAcao('apenas_teste')" style="background: #475569;">
+                    <span>🧪 Rodar Teste de Hardware</span>
+                </button>
+            </div>
+            <button class="voltar" id="btn-voltar-resumo" onclick="voltarPara('tela-dados-dispositivo')">← Voltar</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

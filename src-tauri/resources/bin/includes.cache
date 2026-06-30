@@ -1,0 +1,1347 @@
+[
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Wire.h"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SPI.h"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "EEPROM.h"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SoftwareSerial.h"
+  },
+  {
+    "added_include_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/sketch/FI_1_5_400.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src/Wire.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Wire/Wire.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src/Wire.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Wire/Wire.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src/utility/twi.c",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Wire/utility/twi.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src/utility/twi.c",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Wire/utility/twi.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src/SPI.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/SPI/SPI.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src/SPI.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/SPI/SPI.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/SoftwareSerial/SoftwareSerial.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/SoftwareSerial/SoftwareSerial.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219/Adafruit_INA219.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit INA219/Adafruit_INA219.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219/Adafruit_INA219.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit INA219/Adafruit_INA219.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_BusIO_Register.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_BusIO_Register.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_I2CDevice.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_I2CDevice.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_I2CDevice.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_I2CDevice.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_SPIDevice.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_SPIDevice.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO/Adafruit_SPIDevice.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/Adafruit BusIO/Adafruit_SPIDevice.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/FastLED.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/FastLED.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/FastLED.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/FastLED.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/bitswap.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/bitswap.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/bitswap.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/bitswap.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/colorpalettes.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/colorpalettes.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/colorpalettes.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/colorpalettes.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/colorutils.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/colorutils.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/colorutils.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/colorutils.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/hsv2rgb.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/hsv2rgb.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/hsv2rgb.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/hsv2rgb.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/lib8tion.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/lib8tion.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/lib8tion.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/lib8tion.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/noise.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/noise.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/noise.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/noise.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/platforms.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/platforms.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/platforms.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/platforms.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/power_mgt.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/power_mgt.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/power_mgt.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/power_mgt.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/wiring.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/wiring.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src/wiring.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/FastLED/wiring.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab/LowPower.cpp",
+      "depfile_path": "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/LowPower_LowPowerLab/LowPower.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/guilhermemendina/Library/Arduino15/internal/arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_ATmega328",
+        "-DARDUINO_ARCH_AVR",
+        "-Wextra",
+        "-flto",
+        "-g",
+        "-Ifirmware/include",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/cores/MCUdude_corefiles",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/variants/standard",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_BusIO_1.15.0_3cd3effed338f3f0/Adafruit BusIO",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/Adafruit_INA219_1.2.3_5965e4492d5eccee/Adafruit INA219",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/FastLED_3.6.0_3a2a4d45a2713b30/FastLED/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/Wire/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SPI/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/EEPROM/src",
+        "-I/Users/guilhermemendina/Library/Arduino15/internal/MiniCore_avr_3.0.1_53bb0f0ad9bf08fb/libraries/SoftwareSerial/src",
+        "/Users/guilhermemendina/Library/Arduino15/internal/LowPower_LowPowerLab_2.2_4c118b63a837dff6/LowPower_LowPowerLab/LowPower.cpp",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/Users/guilhermemendina/Downloads/chavi-FI-teste_nova_comunicacao/bin/libraries/LowPower_LowPowerLab/LowPower.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
